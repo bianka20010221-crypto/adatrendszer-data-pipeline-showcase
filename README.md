@@ -13,7 +13,7 @@ Négy külső, egymástól független API-t (webanalitika, webshop, hírlevélre
 hűségprogram) hangol össze egy közös adattárba, napi ütemezéssel, beépített
 minőségbiztosítási (QA) lépéssel, mielőtt az adat vezetői riportokba kerül.
 
-![Workflow diagram](diagrams/emmarozs_workflow.png)
+![Workflow diagram](diagrams/workflow.png)
 
 ## Miért épült így?
 
