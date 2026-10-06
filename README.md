@@ -6,6 +6,10 @@
 > A cél nem a teljes forráskód közzététele, hanem az architektúra és a
 > kódolási minőség bemutatása.
 
+## English summary
+
+A sanitized multi-source ingestion and reporting pipeline that isolates external API failures, validates data before loading, and demonstrates JWT/RS256 authentication without exposing production hosts, credentials, schemas or company-specific logic.
+
 ## Mit csinál a rendszer?
 
 Négy külső, egymástól független API-t (webanalitika, webshop, hírlevélrendszer,
