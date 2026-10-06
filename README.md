@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30787154/README.md)
 # Adatintegrációs & automatizációs workflow — portfólió-kivonat
 
 > **Megjegyzés:** ez egy éles, üzemben futó vállalati adatrendszer **sanitizált,
@@ -33,7 +32,7 @@ minőségbiztosítási (QA) lépéssel, mielőtt az adat vezetői riportokba ker
 ├── README.md
 ├── .env.example              ← placeholder konfiguráció (SOHA nincs benne valós titok)
 ├── diagrams/
-│   └── emmarozs_workflow.png ← a fenti architektúra-ábra
+│   └── workflow.png          ← a fenti architektúra-ábra
 └── src/
     ├── auth/
     │   └── jwt_rs256_auth.php     ← egyedi JWT/RS256 autentikáció
@@ -45,6 +44,13 @@ minőségbiztosítási (QA) lépéssel, mielőtt az adat vezetői riportokba ker
 
 PHP · MySQL · REST API-k · cron-ütemezés · JWT/RS256 (saját implementáció) ·
 Notion API (riport-szinkronhoz)
+
+## Biztonsági megjegyzések
+
+- A repositoryban kizárólag placeholder konfiguráció található.
+- A JWT-aláírás hibáját és a sikertelen HTTP-választ a példa kivétellel jelzi.
+- A tokenkérés időkorlátos; az éles kulcsot környezeti változó vagy secrets manager adja.
+- Az ingesztiós források hibái elkülönülnek, így egyetlen API nem állítja le a teljes futást.
 
 ## Kapcsolódó
 
